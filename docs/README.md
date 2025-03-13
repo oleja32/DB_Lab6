@@ -1,6 +1,8 @@
 # Виконали
 
-*студент(-ка) 2-го курсу, групи (шифр групи)* **[Імʼя Прізвище]**\
+*студенти 2-го курсу, групи ІО-34*\
+**Непорожній Максим** Telegram:[@lazyotters](https://t.me/lazyotters)\
+**Колєснік Володимр** Telegram:[@OIDOS12](https://t.me/OIDOS12)\
 Telegram: [@a_boldak](https://t.me/a_boldak)  
 
 # Керівник
