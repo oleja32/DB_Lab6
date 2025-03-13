@@ -7,7 +7,7 @@
 **Науменко Марія** Telegram:[@monterdasmo](https://t.me/monterdasmo)\
 **Святний Тимофій** Telegram:[@nevwxr](https://t.me/nevwxr)\
 **Янчук Артур** Telegram:[@RutraArtur0](https://t.me/RutraArtur0)\
-**Коваль Максим** Telegram:[@Makc_Koval](https://t.me/Makc_Koval)\
+**Коваль Максим** Telegram:[@Makc_Koval](https://t.me/Makc_Koval)
  
 
 # Керівник
