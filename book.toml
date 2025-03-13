@@ -4,10 +4,10 @@ multilingual = false
 src = "docs"
 
 # Замініть авторство проєкта на своє
-authors = ["Ivan \"ukrustacean\" Dereviankin"]
+authors = ["Maksum \"ukrustacean\" Neporozhnii"]
 
 # Змініть назву проєкта на свою
-title = "Назва проєкту"
+title = "Система управління відкритими даними"
 
 [preprocessor.plantuml]
 plantuml-cmd = "http://www.plantuml.com/plantuml"
