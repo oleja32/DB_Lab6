@@ -3,11 +3,17 @@
 *студенти 2-го курсу, групи ІО-34*\
 **Непорожній Максим** Telegram:[@lazyotters](https://t.me/lazyotters)\
 **Колєснік Володимр** Telegram:[@OIDOS12](https://t.me/OIDOS12)\
-Telegram: [@a_boldak](https://t.me/a_boldak)  
+**Затилюк Олег** Telegram:[@bobsledbonanza](https://t.me/bobsledbonanza)\
+**Науменко Марія** Telegram:[@monterdasmo](https://t.me/monterdasmo)\
+**Святний Тимофій** Telegram:[@nevwxr](https://t.me/nevwxr)\
+**Янчук Артур** Telegram:[@RutraArtur0](https://t.me/RutraArtur0)\
+**Коваль Максим** Telegram:[@Makc_Koval](https://t.me/Makc_Koval)\
+ 
 
 # Керівник
 
-*доцент кафедри ОТ ФІОТ, к.т.н., доцент* **Андрій БОЛДАК** 
+*доцент кафедри ОТ ФІОТ, к.т.н., доцент* **Андрій БОЛДАК**\
+Telegram: [@a_boldak](https://t.me/a_boldak) 
 
 [НТУУ "КИЇВСЬКИЙ ПОЛІТЕХНІЧНИЙ ІНСТИТУТ імені ІГОРЯ СІКОРСЬКОГО](https://kpi.ua/)
 
