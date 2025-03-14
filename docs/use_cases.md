@@ -1,3 +1,7 @@
+# Модель прицедентів
+
+##Загальна схема
+
 <center style="
     border-radius:4px;
     border: 1px solid #cfd7e6;
@@ -113,9 +117,6 @@
 
 @enduml
 ```
-
-
-**Діаграма прецедентів**
 
 </center>
 
