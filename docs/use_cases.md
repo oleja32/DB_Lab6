@@ -10,8 +10,7 @@
 >
 
 
-```plantuml
-
+@startuml
     actor "Гість" as Guest
     actor "Користувач" as User
     actor "Адміністратор" as Admin
@@ -47,7 +46,7 @@
     Admin -u-|> User
     User -u-|> Guest
 
-```
+@enduml
 
 </center>
 
