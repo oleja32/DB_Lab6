@@ -1,6 +1,6 @@
 # Модель прицедентів
 
-##Загальна схема
+## Загальна схема
 
 <center style="
     border-radius:4px;
@@ -9,7 +9,7 @@
     padding: 1em;"
 >
 
-```plantuml
+
 @startuml
 
     actor "Гість" as Guest
@@ -48,7 +48,7 @@
     User -u-|> Guest
 
 @enduml
-```
+
 
 </center>
 
@@ -61,7 +61,7 @@
     padding: 1em;"
     >
 
-```plantuml
+
 @startuml
 
     right header
@@ -116,7 +116,7 @@
     end footer
 
 @enduml
-```
+
 
 </center>
 
