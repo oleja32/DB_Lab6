@@ -10,7 +10,7 @@
 >
 
 
-@startuml
+```plantuml
 
     actor "Гість" as Guest
     actor "Користувач" as User
@@ -47,8 +47,7 @@
     Admin -u-|> User
     User -u-|> Guest
 
-@enduml
-
+```
 
 </center>
 
@@ -62,7 +61,7 @@
     >
 
 
-@startuml
+```plantuml
 
     right header
         <font size=24 color=black>Package: <b>UCD_3.0
@@ -115,7 +114,7 @@
         Киів-2020
     end footer
 
-@enduml
+```
 
 
 </center>
