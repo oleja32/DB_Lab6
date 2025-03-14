@@ -160,43 +160,42 @@
     box-shadow: 0 1px 3px 0 rgba(89,105,129,.05), 0 1px 1px 0 rgba(0,0,0,.025);
     padding: 1em;"
 >
-<pre><code class="language-plantuml">
-    actor "Гість" as Guest
-    actor "Користувач" as User
-    actor "Адміністратор" as Admin
+<p>@startuml
+actor "Гість" as Guest
+actor "Користувач" as User
+actor "Адміністратор" as Admin</p>
+<pre><code>usecase "&lt;b&gt;Guest.Search&lt;b&gt; \n Пошук даних гостем" as GS
+usecase "&lt;b&gt;Guest.SignUp&lt;b&gt; \n Реєстрація в системі" as GSU
+usecase "&lt;b&gt;Guest.SignIn&lt;b&gt; \n Вхід у систему" as GSI
 
-    usecase "&lt;b&gt;Guest.Search&lt;b&gt; \n Пошук даних гостем" as GS
-    usecase "&lt;b&gt;Guest.SignUp&lt;b&gt; \n Реєстрація в системі" as GSU
-    usecase "&lt;b&gt;Guest.SignIn&lt;b&gt; \n Вхід у систему" as GSI
+usecase "&lt;b&gt;User.Logout&lt;b&gt; \n Вихід користувача із системи" as ULO
+usecase "&lt;b&gt;User.Search&lt;b&gt; \n Пошук даних користувачем" as US
+usecase "&lt;b&gt;User.Download&lt;b&gt; \n Завантаження даних з сервера" as UD
+usecase "&lt;b&gt;User.Upload&lt;b&gt; \n Завантаження даних користувачем" as UUP
 
-    usecase "&lt;b&gt;User.Logout&lt;b&gt; \n Вихід користувача із системи" as ULO
-    usecase "&lt;b&gt;User.Search&lt;b&gt; \n Пошук даних користувачем" as US
-    usecase "&lt;b&gt;User.Download&lt;b&gt; \n Завантаження даних з сервера" as UD
-    usecase "&lt;b&gt;User.Upload&lt;b&gt; \n Завантаження даних користувачем" as UUP
+usecase "&lt;b&gt;Admin.Logout&lt;b&gt; \n Вихід адміністратора із системи" as ALI
+usecase "&lt;b&gt;Admin.ChangeUserPermissions&lt;b&gt; \n Зміна прав користувача \n адміністратором" as ACUP
+usecase "&lt;b&gt;Admin.BanUser&lt;b&gt; \n Заблокувати користувача" as ABU
+usecase "&lt;b&gt;Admin.DeleteData&lt;b&gt; \n Видалення даних із системи" as ADD
 
-    usecase "&lt;b&gt;Admin.Logout&lt;b&gt; \n Вихід адміністратора із системи" as ALI
-    usecase "&lt;b&gt;Admin.ChangeUserPermissions&lt;b&gt; \n Зміна прав користувача \n адміністратором" as ACUP
-    usecase "&lt;b&gt;Admin.BanUser&lt;b&gt; \n Заблокувати користувача" as ABU
-    usecase "&lt;b&gt;Admin.DeleteData&lt;b&gt; \n Видалення даних із системи" as ADD
-    
-    Guest -u-&gt; GS
-    Guest -u-&gt; GSU
-    Guest -u-&gt; GSI
+Guest -u-&gt; GS
+Guest -u-&gt; GSU
+Guest -u-&gt; GSI
 
-    User -u-&gt; ULO
-    User -u-&gt; US
-    User -r-&gt; UUP
-    User -d-&gt; UD
+User -u-&gt; ULO
+User -u-&gt; US
+User -r-&gt; UUP
+User -d-&gt; UD
 
-    Admin -l-&gt; ALI 
-    Admin -r-&gt; ACUP 
-    Admin -d-&gt; ABU
-    Admin -u-&gt; ADD
+Admin -l-&gt; ALI 
+Admin -r-&gt; ACUP 
+Admin -d-&gt; ABU
+Admin -u-&gt; ADD
 
-    Admin -u-|&gt; User
-    User -u-|&gt; Guest
-
+Admin -u-|&gt; User
+User -u-|&gt; Guest
 </code></pre>
+<p>@enduml</p>
 </center>
 <p>яка буде відображена наступним чином</p>
 <center style="
