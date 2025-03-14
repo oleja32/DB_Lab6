@@ -16,16 +16,9 @@
 
 яка буде відображена наступним чином
 
-<center style="
-    border-radius:4px;
-    border: 1px solid #cfd7e6;
-    box-shadow: 0 1px 3px 0 rgba(89,105,129,.05), 0 1px 1px 0 rgba(0,0,0,.025);
-    padding: 1em;"
-    >
-
-
 ```plantuml
 
+@startuml
     right header
         <font size=24 color=black>Package: <b>UCD_3.0
     end header
@@ -78,7 +71,7 @@
     end footer
 
 ```
+@enduml
 
 
-</center>
 
