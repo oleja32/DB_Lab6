@@ -16,9 +16,10 @@
 
 яка буде відображена наступним чином
 
+@startuml
 ```plantuml
 
-@startuml
+
     right header
         <font size=24 color=black>Package: <b>UCD_3.0
     end header
