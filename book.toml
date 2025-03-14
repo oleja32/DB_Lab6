@@ -11,4 +11,4 @@ title = "Система управління відкритими даними"
 
 [preprocessor.plantuml]
 plantuml-cmd = "http://www.plantuml.com/plantuml"
-use-data-uris = true
+#use-data-uris = true
