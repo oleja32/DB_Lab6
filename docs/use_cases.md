@@ -4,34 +4,10 @@
 
 ![Загальна схема](//www.plantuml.com/plantuml/png/bPJFQjj04CRlVeebT-S9YeaJGJ4OQZ1xwsLhBux1NWMjH2yz93PfUoYajCM5Njf7KDMu5KwSliBi6tLsf4qbf7Mf3yB-DFFxvi-kJtGieZXPBZfY4eSHEuAFPcEkpCgyEs92iwU9r767uSUz_m8FvX9oYbb31gbvGv5SowWM-1vkuTviO5y2Bp5qPPCfl3zTpbM74X8j9q9BTlJaHO_yZiTIH9Dp_CcUAmPVCUajUkqO4bFOe_arWn-e8XQsS5zKElR1vZF5Bnpi6spDfyTwNcDjDmmoPguWTpYpAO7y076W7F63kSOkRvbProdhaZ9eTcbdTJmCPs4IFr8WBpcmQquOKeRlVjKC82_cFdpMpl_t4Dkjt43vk9qRX2_L8XHJH_wCkCmYpGgVFp5_ZzzlQZvK-HQjCdgcXK7GRi0l_XD_k0q-QYw0Jfz_0wdlw1xOGtyuyDYSdGiraxQraOoMSwtdeT9_soCZ1CDlouVCSm0esb_OGzbk_uoFF7MS2cMBg0xsEznXvgvqMK7kCI_Gfzn33kH2nZ8GiQWCanPqrx8l_mY3W0peGLUDTPDk3-zGK-4DoLqqsoD9xcfKbN55YAp0HnLbQfMWm51dhBj02LVBgXecqfoh8kNIX9n4ZjHJNNlL8xUABMdKIkT4gYd-6_y1)
 
-</center>
+## Гість(Guest)
 
-## Гість
+![Гість](//www.plantuml.com/plantuml/png/VT2nIiGm7CVnlK_nf_lv17BS9fsFRYwn1XKqIfFidkN4GH1KikeZ56sXYFeClzyR6MABID4CWNn3FYHPMQTgvyzECrMvyrfoF31mmolUvgAix7bjNIPnfCbRNIch9TyzMAQjdRLMTNKSbx9l14_uv0qRl0awjFZ0mAtWDTP8eiVxDxh-2pivCkN5X3sZvsEwooLQNZFmJl0Yt62OE8OHBFyH2pE9zzmoe1CslvLcL8gVbwRZil2BPUppKivJaQsqEOnV-GK0)
 
-<center style="
-    border-radius:4px;
-    border: 1px solid #cfd7e6;
-    box-shadow: 0 1px 3px 0 rgba(89,105,129,.05), 0 1px 1px 0 rgba(0,0,0,.025);
-    padding: 1em;"
->
- 
-```plantuml
-@startuml
+##Користувач(User)
 
-    actor "Гість" as Guest
-    
-    usecase "<b>Guest.Search<b> \n Пошук даних гостем" as GS
-    usecase "<b>Guest.SignUp<b> \n Реєстрація в системі" as GSU
-    usecase "<b>Guest.SignIn<b> \n Вхід у систему" as GSI
-    
-    Guest -u-> GS
-    Guest -u-> GSU
-    Guest -u-> GSI   
-
-@enduml
-```
-
-</center>
-
-
-
+![Користувач](//www.plantuml.com/plantuml/png/bPJBQjj058RtVeh1NISF44h8HQ8RGmD2NdKpbGP7U38Jva9ALqtlkq8MANJHzX5KDsb2Bds6Cs_KSpG8XaHOr0ipEkUV__lFiT6ETTmuVoGd4uOVkspKCJVyYErMJfizNYqNHdjLxskf3SkuMJupGgX1iJQrCEk5fHNxt8g7lhDcSUZsf1V3ykYyNhfhZ3vvAEaqdCAnANo3l-4DN8VJy3QyWnMquTEKSKiG4vNUYWfnRFhqvJQUpKmlj7Vum5ue1cTuzqCuXmi6Du-je6NOksBXDDRX4kxWEW9cpzcJ9FS0gH3SL8SzwGVQVqRZ6mONqC8zWOUX28c8OeoGwHCbDQzxnbSqNf4vHctX3phTu_bBIepJN29qrNst4PMDeShZ_m2DZrOUZ07pkd4PTxn7_iJBvFuxcZq2HjzyT91vOpsNpMkHcf_Hpup6BTpI2RD-3ES3zlDH-q98KRdybHFADbhrWE_m2vVHfmxlkztSGKkxIIYefQTRGbyDxpW6AV8qI9UaH3hRy1lRzDzCAZLLYgHWg50U91L9bIpQq0etwyrEiYLeZjh6nXmRVgZHNoZohKPLqjV2JYOxsATNq3y0)
