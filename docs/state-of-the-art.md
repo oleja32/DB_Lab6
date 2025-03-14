@@ -58,8 +58,8 @@
 
 ## Посилання
 
-•	CKAN: https://ckan.org/ \
-•	Socrata (OpenGov Platform): https://www.tylertech.com/solutions/opengov (раніше Socrata) \
-•	Junar: https://junar.com/ \
-•	Dataverse: https://dataverse.org/ \
-•	Open Data Handbook: https://opendatahandbook.org/ 
+•	[CKAN](https://ckan.org/ ) \
+•	[Socrata](https://dev.socrata.com/) \
+•	[Junar](https://junar.com/) \
+•	[Dataverse](https://dataverse.org/) \
+•	[Open Data Handbook](https://opendatahandbook.org/ )
