@@ -1,13 +1,14 @@
 # Виконали
 
 *студенти 2-го курсу, групи ІО-34*\
-**Непорожній Максим** Telegram:[@lazyotters](https://t.me/lazyotters)\
-**Колєснік Володимр** Telegram:[@OIDOS12](https://t.me/OIDOS12)\
-**Затилюк Олег** Telegram:[@bobsledbonanza](https://t.me/bobsledbonanza)\
-**Науменко Марія** Telegram:[@monterdasmo](https://t.me/monterdasmo)\
-**Святний Тимофій** Telegram:[@nevwxr](https://t.me/nevwxr)\
-**Янчук Артур** Telegram:[@RutraArtur0](https://t.me/RutraArtur0)\
-**Коваль Максим** Telegram:[@Makc_Koval](https://t.me/Makc_Koval)
+**Непорожній Максим** Telegram:[@lazyotters](https://t.me/lazyotters) - тімлід\
+**Затилюк Олег** Telegram: [@bobsledbonanza](https://t.me/bobsledbonanza)  
+**Колєснік Володимир** Telegram: [@OIDOS12](https://t.me/OIDOS12)  
+**Коваль Максим** Telegram: [@Makc_Koval](https://t.me/Makc_Koval)  
+**Науменко Марія** Telegram: [@monterdasmo](https://t.me/monterdasmo)  
+**Святний Тимофій** Telegram: [@nevwxr](https://t.me/nevwxr)  
+**Янчук Артур** Telegram: [@RutraArtur0](https://t.me/RutraArtur0)  
+
  
 
 # Керівник
