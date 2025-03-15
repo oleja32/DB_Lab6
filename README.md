@@ -22,4 +22,4 @@ Telegram: [@a_boldak](https://t.me/a_boldak)
 
 [Кафедра обчислювальної техніки](https://comsys.kpi.ua/)
 
-Київ
+Київ 2025
