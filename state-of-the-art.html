@@ -31,10 +31,11 @@
         <!-- Custom theme stylesheets -->
 
 
-        <!-- Provide site root to javascript -->
+        <!-- Provide site root and default themes to javascript -->
         <script>
-            var path_to_root = "";
-            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+            const path_to_root = "";
+            const default_light_theme = "light";
+            const default_dark_theme = "navy";
         </script>
         <!-- Start loading toc.js asap -->
         <script src="toc.js"></script>
@@ -44,8 +45,8 @@
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
         <script>
             try {
-                var theme = localStorage.getItem('mdbook-theme');
-                var sidebar = localStorage.getItem('mdbook-sidebar');
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
 
                 if (theme.startsWith('"') && theme.endsWith('"')) {
                     localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
@@ -59,7 +60,8 @@
 
         <!-- Set the theme before any content is loaded, prevents flash -->
         <script>
-            var theme;
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
             const html = document.documentElement;
@@ -72,8 +74,8 @@
 
         <!-- Hide / unhide sidebar before it is displayed -->
         <script>
-            var sidebar = null;
-            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
@@ -109,6 +111,7 @@
                             <i class="fa fa-paint-brush"></i>
                         </button>
                         <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="default_theme">Auto</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
@@ -170,13 +173,56 @@
 <li><a href="#9">Посилання</a></li>
 </ol>
 <h2 id="Вступ"><a class="header" href="#Вступ"><span id="intro"> Вступ </span></a></h2>
-<p>Даний документ містить аналіз предметної області системи управління відкритими даними, визначення ключових понять, опис методів вирішення задачі, порівняння існуючих рішень та висновки щодо необхідності розробки нової системи.</p>
-<p>Система управління відкритими даними (Open Data Management System) – це комплекс технічних і організаційних засобів для збору, зберігання, обробки, публікації та використання відкритих даних.</p>
+<p>Управління відкритими даними є ключовою складовою цифрової трансформації, яка сприяє прозорості, інноваціям та економічному розвитку. Відкриті дані використовуються в державному управлінні, науці, бізнесі та громадському секторі, дозволяючи створювати нові сервіси та оптимізувати існуючі процеси.</p>
 <h2 id="Основні-визначення"><a class="header" href="#Основні-визначення"><span id="1"> Основні визначення </span></a></h2>
 <ul>
 <li><strong>Відкриті дані</strong> – інформація, що доступна для вільного використання, поширення та модифікації.</li>
 <li><strong>API (Application Programming Interface)</strong> – інтерфейс для взаємодії з системою управління відкритими даними.</li>
 <li><strong>FURPS</strong> – модель аналізу якості програмних систем за п'ятьма критеріями: Functionality, Usability, Reliability, Performance, Supportability.</li>
+</ul>
+<h4 id="Стандарти-та-формати"><a class="header" href="#Стандарти-та-формати"><span id="1.1"> Стандарти та формати</span></a></h4>
+<ul>
+<li><strong>JSON, XML, RDF</strong> – широко використовуються для структурованого представлення даних.</li>
+<li><strong>CKAN, Data.gov</strong> – платформи, що забезпечують зберігання та доступ до відкритих даних.</li>
+<li><strong>Open Data Protocol (OData)</strong> – спрощує доступ до даних через API.</li>
+</ul>
+<h4 id="Моделі-управління-даними"><a class="header" href="#Моделі-управління-даними"><span id="1.2"> Моделі управління даними  </span></a></h4>
+<ul>
+<li><strong>Linked Open Data (LOD)</strong> – дозволяє об’єднувати дані з різних джерел у взаємопов’язану мережу.</li>
+<li><strong>Data-as-a-Service (DaaS)</strong> – надання даних у вигляді хмарного сервісу для споживачів.</li>
+<li><strong>API-інтерфейси</strong> – забезпечують швидкий доступ до відкритих даних для розробників.</li>
+</ul>
+<h4 id="Інноваційні-технології"><a class="header" href="#Інноваційні-технології"><span id="1.3"> Інноваційні технології  </span></a></h4>
+<ul>
+<li><strong>Big Data та штучний інтелект (AI)</strong> – використовуються для аналізу великих масивів відкритих даних.</li>
+<li><strong>Блокчейн</strong> – гарантує незмінність та перевірку достовірності даних.</li>
+<li><strong>Інтернет речей (IoT)</strong> – сприяє автоматичному збору та оновленню даних у режимі реального часу.</li>
+</ul>
+<h3 id="Виклики-у-сфері-відкритих-даних"><a class="header" href="#Виклики-у-сфері-відкритих-даних"><span id="1.4"> Виклики у сфері відкритих даних </span></a></h3>
+<ol>
+<li><strong>Якість даних</strong> – дублювання, застарілість та відсутність оновлень.</li>
+<li><strong>Безпека та конфіденційність</strong> – ризик витоку даних через відкриті API або несанкціонований доступ.</li>
+<li><strong>Стандартизація</strong> – різні країни та організації використовують несумісні формати.</li>
+<li><strong>Довіра до даних</strong> – необхідність перевірки достовірності джерел.</li>
+</ol>
+<h3 id="Приклади-використання"><a class="header" href="#Приклади-використання"><span id="1.5"> Приклади використання  </span></a></h3>
+<ul>
+<li><strong>США (Data.gov)</strong> – єдиний портал відкритих урядових даних.</li>
+<li><strong>ЄС (European Data Portal)</strong> – агрегує дані з різних державних установ.</li>
+<li><strong>Україна (data.gov.ua)</strong> – національна платформа відкритих даних.</li>
+</ul>
+<h3 id="Економічні-та-соціальні-аспекти"><a class="header" href="#Економічні-та-соціальні-аспекти"><span id="1.6"> Економічні та соціальні аспекти </span></a></h3>
+<ul>
+<li><strong>Підвищення прозорості</strong> – зменшення корупції через відкритий доступ до урядових рішень.</li>
+<li><strong>Розвиток бізнесу</strong> – створення нових сервісів та аналітичних продуктів.</li>
+<li><strong>Покращення науки та освіти</strong> – доступ до актуальних даних для досліджень та навчання.</li>
+</ul>
+<h3 id="Перспективи-розвитку"><a class="header" href="#Перспективи-розвитку"><span id="1.7"> Перспективи розвитку  </span></a></h3>
+<p>Майбутнє управління відкритими даними передбачає:</p>
+<ul>
+<li>Використання <strong>автоматизованих інструментів</strong> для аналізу даних.</li>
+<li>Поглиблену інтеграцію з <strong>штучним інтелектом</strong> для прогнозування тенденцій.</li>
+<li>Підвищення <strong>взаємодії між платформами</strong> завдяки вдосконаленим стандартам обміну даними.</li>
 </ul>
 <h3 id="Основні-функції-системи"><a class="header" href="#Основні-функції-системи"><span id="2"> Основні функції системи </span></a></h3>
 <ul>
