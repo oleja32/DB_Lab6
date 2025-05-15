@@ -1,5 +1,3 @@
-![image](https://github.com/user-attachments/assets/dbb29b52-1d4e-4492-844e-e2040869bb5a)# Проєктування бази даних
-
 В рамках проекту розробляється: 
 - [Модель бізнес-об'єктів](#BusinessModel)
 - [ER-модель](#ERModel)
