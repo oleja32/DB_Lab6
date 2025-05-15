@@ -1,4 +1,4 @@
-# Проєктування бази даних
+![image](https://github.com/user-attachments/assets/dbb29b52-1d4e-4492-844e-e2040869bb5a)# Проєктування бази даних
 
 В рамках проекту розробляється: 
 - [Модель бізнес-об'єктів](#BusinessModel)
@@ -10,7 +10,7 @@
 <span id="BusinessModel"></span>
 ## Модель бізнес-об'єктів
 **Модель бізнес-об'єктів** —
-
+![Реляційна схема](//www.plantuml.com/plantuml/png/XPFFRi8m3CRlF4NLtT0w3Uso0qAmqGFInW4LQJj6JK3HsWGbgH1llxJMt3-UjnFKly-ndNnU-o1SQEfgfapGuPOSlNB9SfdlYrtnkLebTq-dvqLPpf9a87ZGCchsn_UN_10r4tZIpWSZQXKrHVvHK4Kb_X6eMkYAJxTdRLXw4TvVhPC3GQyus4fnuw606m_WfF6URifIUS-VZfBn-OCJjY88BXy5N7S0HzrDc5I-TFeIj3MSn5wDShk_2foigqN0_2akhGdnc-TEYQ3afbLiDqLE5Sr54aKlASIPkI7ap0K1Or_lDHOzMtTZJX-Bs18eOEkyQVFrMuqeWUMRPp8REvaGs00IXhKXOLmtId1LATAoxQXrV0msMUzz4WKfcBSDPfDtf0nTG1WwY12q7W7eMa96bgSKng5Xc0TsDSQh68SF8AsFkej2GqrY84ClG7pa39vgEMJfu_qYJRBCjl_cAG8qIxg8WjWvOEZovu60oJ73mU34E5mdwmR7LuJC2Z8xnqRI_aoIugoO0qG2wHjTAoERkle6)
 
 <span id="ERModel"></span>
 ## ER-модель
