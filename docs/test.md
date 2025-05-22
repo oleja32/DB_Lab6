@@ -4,7 +4,7 @@
 ```bash
 uvicorn main:app --reload
 ```
-#Можливі запити
+# Можливі запити
 ![image](https://github.com/user-attachments/assets/aab09083-4cf4-4337-bde4-5ff6cd671b81)
 
 
