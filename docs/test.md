@@ -18,7 +18,7 @@ uvicorn main:app --reload
 
 ![image](https://github.com/user-attachments/assets/9e409fa7-633c-4769-93cc-97568ef49022)
 
-## Метод PUT для таблиць Role та Tag (Змінити дані в даблиці)
+## Метод PUT для таблиць Role та Tag (Змінити дані в таблиці)
 ![image](https://github.com/user-attachments/assets/6e182563-6b90-4c8a-86da-966b5d1ca1ec)
 
 ![image](https://github.com/user-attachments/assets/07d9a476-9765-43cb-b29d-16e0022c05a2)
