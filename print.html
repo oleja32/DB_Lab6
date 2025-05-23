@@ -905,23 +905,26 @@ COMMIT;
 </code></pre>
 <h2 id="restfull-сервіс-для-управління-даними"><a class="header" href="#restfull-сервіс-для-управління-даними">RESTfull сервіс для управління даними</a></h2>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="Тестування-працездатності-системи"><a class="header" href="#Тестування-працездатності-системи">Тестування працездатності системи</a></h1>
-<h1 id="Запуск-сервера"><a class="header" href="#Запуск-сервера">Запуск сервера</a></h1>
-<pre><code class="language-bash">uvicorn main:app --reload
-</code></pre>
 <h1 id="Можливі-запити"><a class="header" href="#Можливі-запити">Можливі запити</a></h1>
-<p><img src="https://github.com/user-attachments/assets/aab09083-4cf4-4337-bde4-5ff6cd671b81" alt="image" /></p>
-<h2 id="Метод-get-для-таблиць-role-та-tag-Отримати-дані-з-таблиці"><a class="header" href="#Метод-get-для-таблиць-role-та-tag-Отримати-дані-з-таблиці">Метод GET для таблиць Role та Tag (Отримати дані з таблиці)</a></h2>
-<p><img src="https://github.com/user-attachments/assets/bde16978-7ed5-4920-8d21-624350db8bfe" alt="image" /></p>
-<p><img src="https://github.com/user-attachments/assets/6727d4c4-0b17-4b4b-bf98-99d1de559c63" alt="image" /></p>
-<h2 id="Метод-post-для-таблиць-role-та-tag-Додати-дані-до-таблиці"><a class="header" href="#Метод-post-для-таблиць-role-та-tag-Додати-дані-до-таблиці">Метод POST для таблиць Role та Tag (Додати дані до таблиці)</a></h2>
-<p><img src="https://github.com/user-attachments/assets/9a8831bb-e6c3-417a-bb82-df63beec8568" alt="image" /></p>
-<p><img src="https://github.com/user-attachments/assets/9e409fa7-633c-4769-93cc-97568ef49022" alt="image" /></p>
-<h2 id="Метод-put-для-таблиць-role-та-tag-Змінити-дані-в-таблиці"><a class="header" href="#Метод-put-для-таблиць-role-та-tag-Змінити-дані-в-таблиці">Метод PUT для таблиць Role та Tag (Змінити дані в таблиці)</a></h2>
-<p><img src="https://github.com/user-attachments/assets/6e182563-6b90-4c8a-86da-966b5d1ca1ec" alt="image" /></p>
-<p><img src="https://github.com/user-attachments/assets/07d9a476-9765-43cb-b29d-16e0022c05a2" alt="image" /></p>
-<h2 id="Метод-delete-для-таблиць-role-та-tag-Видалити-дані-з-таблиці"><a class="header" href="#Метод-delete-для-таблиць-role-та-tag-Видалити-дані-з-таблиці">Метод DELETE для таблиць Role та Tag (Видалити дані з таблиці)</a></h2>
-<p><img src="https://github.com/user-attachments/assets/738108ee-f8c5-4863-ab75-173ac7127506" alt="image" /></p>
-<p><img src="https://github.com/user-attachments/assets/e3a52c67-9de8-40f8-992d-a1ed36075283" alt="image" /></p>
+<p><img src="https://github.com/user-attachments/assets/4e5a3e07-124f-45ab-abe6-7e5aa718e61c" alt="image" /></p>
+<h2 id="Метод-get-для-таблиці-categories-Отримати-дані-з-таблиці"><a class="header" href="#Метод-get-для-таблиці-categories-Отримати-дані-з-таблиці">Метод GET для таблиці categories (Отримати дані з таблиці)</a></h2>
+<p><img src="https://github.com/user-attachments/assets/91728630-d17e-4604-b3c7-8687959368ef" alt="image" /></p>
+<h2 id="Метод-post-для-таблиці-categories-Додати-дані-до-таблиці"><a class="header" href="#Метод-post-для-таблиці-categories-Додати-дані-до-таблиці">Метод POST для таблиці categories (Додати дані до таблиці)</a></h2>
+<pre><code class="language-bash">{
+  "name": "test",
+  "parent_category_id": 1
+}
+</code></pre>
+<p><img src="https://github.com/user-attachments/assets/55e05296-c0d3-4dd0-b4e4-105e5ee8dac9" alt="image" /></p>
+<h2 id="Метод-put-для-таблиці-categories-Змінити-дані-в-таблиці"><a class="header" href="#Метод-put-для-таблиці-categories-Змінити-дані-в-таблиці">Метод PUT для таблиці categories (Змінити дані в таблиці)</a></h2>
+<pre><code class="language-bash">{
+  "name": "testUpdated",
+  "parent_category_id": 1
+}
+</code></pre>
+<p><img src="https://github.com/user-attachments/assets/a5ac6dac-e048-4449-93c6-812a22a3b2db" alt="image" /></p>
+<h2 id="Метод-delete-для-таблиці-categories-Видалити-дані-з-таблиці"><a class="header" href="#Метод-delete-для-таблиці-categories-Видалити-дані-з-таблиці">Метод DELETE для таблиці categories (Видалити дані з таблиці)</a></h2>
+<p><img src="https://github.com/user-attachments/assets/92ff8c92-9e88-4011-ae3c-2f450a84c640" alt="image" /></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="Висновки-1"><a class="header" href="#Висновки-1">Висновки</a></h1>
 <p>У висновках наводять оцінку отриманих результатів, можливі галузі його використання. Висновки повинні містити в собі коротку узагальнену оцінку результатів розробки, у
 тому числі і з погляду на їх технічно-економічну ефективність. Необхідно порівняти
